@@ -1,3 +1,6 @@
+Grabs the html5 video links from a Stanford MyVideoSU course page. They can be
+subsequently downloaded conveniently via a tool like JDownloader.
+
 HowTo:
 node linkgrabber.js <input_file> <classname>
 
