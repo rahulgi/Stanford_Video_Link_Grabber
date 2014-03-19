@@ -1,0 +1,7 @@
+HowTo:
+node linkgrabber.js <input_file> <classname>
+
+Sample usage:
+node linkgrabber.js test_input_cs246 cs246 > cs246_links
+(test_input_cs246 is the test page I used. However, for fear of copyright
+issues, it is not included in this public repo)
