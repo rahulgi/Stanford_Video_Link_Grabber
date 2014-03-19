@@ -22,7 +22,7 @@ var input = fs.readFileSync(process.argv[2]).toString();
 var urls = [], seen = {};
 
 var outer_regex = new RegExp('(\&quot;720.*720.mp4)', 'gi');
-var inner_regex = new RegExp('(http://html5b(.)*720.mp4)');
+var inner_regex = new RegExp('(http://html5(.)*720.mp4)');
 
 urls = input.match(outer_regex);
 
